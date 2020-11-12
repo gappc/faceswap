@@ -7,8 +7,8 @@ from lib.config import generate_configs
 
 if sys.version_info[0] < 3:
     raise Exception("This program requires at least python3.7")
-if sys.version_info[0] == 3 and sys.version_info[1] < 7:
-    raise Exception("This program requires at least python3.7")
+# if sys.version_info[0] == 3 and sys.version_info[1] < 7:
+#     raise Exception("This program requires at least python3.7")
 
 
 _PARSER = args.FullHelpArgumentParser()
